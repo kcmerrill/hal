@@ -1,0 +1,356 @@
+[July 14, 2015, 1:47 am] HAL       Hello Dave. []
+[July 14, 2015, 1:47 am] HAL       I'm completely operational, and all my circuits are functioning perfectly. []
+[July 14, 2015, 1:48 am] INFO      A new connection. {"resourceId":48,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436838558}
+[July 14, 2015, 1:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":48,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436838558,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436682749},"created_date":1436838558,"updated_date":1436838558,"_id":{"$id":"55a46a9ee13e460b008b4567"}}
+[July 14, 2015, 1:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","confirm":true,"channel":"default","action":"_default","sent":1436838570}
+[July 14, 2015, 1:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":48,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","confirm":true,"channel":"default","action":"_default","sent":1436838570,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436838558},"created_date":1436838570,"updated_date":1436838570,"_id":{"$id":"55a46aaae13e460b008b4568"}}
+[July 14, 2015, 1:52 am] INFO      A new connection. {"resourceId":68,"remoteAddress":"104.236.82.79"}
+[July 14, 2015, 1:52 am] HAL       I'm sorry 104.236.82.79. I cannot do that. Goodbye. {"resourceId":68,"remoteAddress":"104.236.82.79"}
+[July 14, 2015, 1:57 am] INFO      A new connection. {"resourceId":71,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":71,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] INFO      A new connection. {"resourceId":74,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":74,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] INFO      A new connection. {"resourceId":77,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":77,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] INFO      A new connection. {"resourceId":80,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 1:57 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":80,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:27 am] INFO      A new connection. {"resourceId":83,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:27 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":83,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:42 am] INFO      A new connection. {"resourceId":86,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:42 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":86,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:42 am] INFO      A new connection. {"resourceId":89,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:42 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436841752}
+[July 14, 2015, 2:42 am] HAL       Transmitting message. kcmerrill->default {"resourceId":89,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:42 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436841752,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436838570},"created_date":1436841752,"updated_date":1436841752,"_id":{"$id":"55a47718e13e460b008b4569"}}
+[July 14, 2015, 2:43 am] INFO      A new connection. {"resourceId":94,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:43 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":94,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] INFO      A new connection. {"resourceId":97,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436841855}
+[July 14, 2015, 2:44 am] HAL       Transmitting message. kcmerrill->default {"resourceId":97,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436841855,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436841752},"created_date":1436841855,"updated_date":1436841855,"_id":{"$id":"55a4777fe13e460b008b456a"}}
+[July 14, 2015, 2:44 am] INFO      A new connection. {"resourceId":102,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":102,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] INFO      A new connection. {"resourceId":105,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:44 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":105,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":108,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":108,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":111,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":111,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":114,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":114,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":117,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":117,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":120,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842088}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":120,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842088,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436841855},"created_date":1436842088,"updated_date":1436842088,"_id":{"$id":"55a47868e13e460b008b456b"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":125,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842091}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":125,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842091,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842088},"created_date":1436842091,"updated_date":1436842091,"_id":{"$id":"55a4786be13e460b008b456c"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":130,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842092}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":130,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842092,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842091},"created_date":1436842092,"updated_date":1436842092,"_id":{"$id":"55a4786ce13e460b008b456d"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":135,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":135,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":138,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":138,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":141,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":141,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":144,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":144,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":147,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":147,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":150,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842098}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":150,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842098,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842092},"created_date":1436842098,"updated_date":1436842098,"_id":{"$id":"55a47872e13e460b008b456e"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":155,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842099}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":155,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842099,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842098},"created_date":1436842099,"updated_date":1436842099,"_id":{"$id":"55a47873e13e460b008b456f"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":160,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842100}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":160,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842100,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842099},"created_date":1436842100,"updated_date":1436842100,"_id":{"$id":"55a47874e13e460b008b4570"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":165,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842100}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":165,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842100,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842100},"created_date":1436842100,"updated_date":1436842100,"_id":{"$id":"55a47874e13e460b008b4571"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":170,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842101}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":170,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842101,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842100},"created_date":1436842101,"updated_date":1436842101,"_id":{"$id":"55a47875e13e460b008b4572"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":175,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842101}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":175,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842101,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842101},"created_date":1436842101,"updated_date":1436842101,"_id":{"$id":"55a47875e13e460b008b4573"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":180,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842102}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":180,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842102,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842101},"created_date":1436842102,"updated_date":1436842102,"_id":{"$id":"55a47876e13e460b008b4574"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":185,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842103}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":185,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842103,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842102},"created_date":1436842103,"updated_date":1436842103,"_id":{"$id":"55a47877e13e460b008b4575"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":190,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842104}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":190,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842104,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842103},"created_date":1436842104,"updated_date":1436842104,"_id":{"$id":"55a47878e13e460b008b4576"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":195,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842104}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":195,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842104,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842104},"created_date":1436842104,"updated_date":1436842104,"_id":{"$id":"55a47878e13e460b008b4577"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":200,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842105}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":200,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842105,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842104},"created_date":1436842105,"updated_date":1436842105,"_id":{"$id":"55a47879e13e460b008b4578"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":205,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842105}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":205,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842105,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842105},"created_date":1436842105,"updated_date":1436842105,"_id":{"$id":"55a47879e13e460b008b4579"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":210,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842106}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":210,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842106,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842105},"created_date":1436842106,"updated_date":1436842106,"_id":{"$id":"55a4787ae13e460b008b457a"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":215,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842107}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":215,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842107,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842106},"created_date":1436842107,"updated_date":1436842107,"_id":{"$id":"55a4787be13e460b008b457b"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":220,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842107}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":220,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842107,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842107},"created_date":1436842107,"updated_date":1436842107,"_id":{"$id":"55a4787be13e460b008b457c"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":225,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842108}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":225,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842108,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842107},"created_date":1436842108,"updated_date":1436842108,"_id":{"$id":"55a4787ce13e460b008b457d"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":230,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842109}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":230,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842109,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842108},"created_date":1436842109,"updated_date":1436842109,"_id":{"$id":"55a4787de13e460b008b457e"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":235,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842110}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":235,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842110,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842109},"created_date":1436842110,"updated_date":1436842110,"_id":{"$id":"55a4787ee13e460b008b457f"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":240,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842111}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":240,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842111,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842110},"created_date":1436842111,"updated_date":1436842111,"_id":{"$id":"55a4787fe13e460b008b4580"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":245,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842112}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":245,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842112,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842111},"created_date":1436842112,"updated_date":1436842112,"_id":{"$id":"55a47880e13e460b008b4581"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":250,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842113}
+[July 14, 2015, 2:48 am] HAL       Transmitting message. kcmerrill->default {"resourceId":250,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842113,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842112},"created_date":1436842113,"updated_date":1436842113,"_id":{"$id":"55a47881e13e460b008b4582"}}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":255,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":255,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":258,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":258,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] INFO      A new connection. {"resourceId":261,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:48 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":261,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":264,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":264,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":267,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":267,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":270,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":270,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":273,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] HAL       Something smells funny Dave. Disconnecting 127.0.0.1 {"resourceId":273,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":276,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:49 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":276,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":279,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842185}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":279,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842185,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842113},"created_date":1436842185,"updated_date":1436842185,"_id":{"$id":"55a478c9e13e460b008b4583"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":284,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842186}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":284,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842186,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842185},"created_date":1436842186,"updated_date":1436842186,"_id":{"$id":"55a478cae13e460b008b4584"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":289,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842186}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":289,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842186,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842186},"created_date":1436842186,"updated_date":1436842186,"_id":{"$id":"55a478cae13e460b008b4585"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":294,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842187}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":294,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842187,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842186},"created_date":1436842187,"updated_date":1436842187,"_id":{"$id":"55a478cbe13e460b008b4586"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":299,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842187}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":299,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842187,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842187},"created_date":1436842187,"updated_date":1436842187,"_id":{"$id":"55a478cbe13e460b008b4587"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":304,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842188}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":304,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842188,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842187},"created_date":1436842188,"updated_date":1436842188,"_id":{"$id":"55a478cce13e460b008b4588"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":309,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842189}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":309,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842189,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842188},"created_date":1436842189,"updated_date":1436842189,"_id":{"$id":"55a478cde13e460b008b4589"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":314,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842189}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":314,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842189,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842189},"created_date":1436842189,"updated_date":1436842189,"_id":{"$id":"55a478cde13e460b008b458a"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":319,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842190}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":319,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842190,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842189},"created_date":1436842190,"updated_date":1436842190,"_id":{"$id":"55a478cee13e460b008b458b"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":324,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842191}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":324,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842191,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842190},"created_date":1436842191,"updated_date":1436842191,"_id":{"$id":"55a478cfe13e460b008b458c"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":329,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842192}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":329,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842192,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842191},"created_date":1436842192,"updated_date":1436842192,"_id":{"$id":"55a478d0e13e460b008b458d"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":334,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842193}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":334,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842193,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842192},"created_date":1436842193,"updated_date":1436842193,"_id":{"$id":"55a478d1e13e460b008b458e"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":339,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842194}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":339,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842194,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842193},"created_date":1436842194,"updated_date":1436842194,"_id":{"$id":"55a478d2e13e460b008b458f"}}
+[July 14, 2015, 2:49 am] INFO      A new connection. {"resourceId":344,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842195}
+[July 14, 2015, 2:49 am] HAL       Transmitting message. kcmerrill->default {"resourceId":344,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:49 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842195,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842194},"created_date":1436842195,"updated_date":1436842195,"_id":{"$id":"55a478d3e13e460b008b4590"}}
+[July 14, 2015, 2:50 am] INFO      A new connection. {"resourceId":349,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842209}
+[July 14, 2015, 2:50 am] HAL       Transmitting message. kcmerrill->default {"resourceId":349,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842209,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842195},"created_date":1436842209,"updated_date":1436842209,"_id":{"$id":"55a478e1e13e460b008b4591"}}
+[July 14, 2015, 2:50 am] INFO      A new connection. {"resourceId":354,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842209}
+[July 14, 2015, 2:50 am] HAL       Transmitting message. kcmerrill->default {"resourceId":354,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842209,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842209},"created_date":1436842209,"updated_date":1436842209,"_id":{"$id":"55a478e1e13e460b008b4592"}}
+[July 14, 2015, 2:50 am] INFO      A new connection. {"resourceId":359,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842210}
+[July 14, 2015, 2:50 am] HAL       Transmitting message. kcmerrill->default {"resourceId":359,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842210,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842209},"created_date":1436842210,"updated_date":1436842210,"_id":{"$id":"55a478e2e13e460b008b4593"}}
+[July 14, 2015, 2:50 am] INFO      A new connection. {"resourceId":364,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842212}
+[July 14, 2015, 2:50 am] HAL       Transmitting message. kcmerrill->default {"resourceId":364,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:50 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842212,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842210},"created_date":1436842212,"updated_date":1436842212,"_id":{"$id":"55a478e4e13e460b008b4594"}}
+[July 14, 2015, 2:51 am] INFO      A new connection. {"resourceId":369,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842276}
+[July 14, 2015, 2:51 am] HAL       Transmitting message. kcmerrill->default {"resourceId":369,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842276,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842212},"created_date":1436842276,"updated_date":1436842276,"_id":{"$id":"55a47924e13e460b008b4595"}}
+[July 14, 2015, 2:51 am] INFO      A new connection. {"resourceId":374,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842278}
+[July 14, 2015, 2:51 am] HAL       Transmitting message. kcmerrill->default {"resourceId":374,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842278,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842276},"created_date":1436842278,"updated_date":1436842278,"_id":{"$id":"55a47926e13e460b008b4596"}}
+[July 14, 2015, 2:51 am] INFO      A new connection. {"resourceId":379,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842279}
+[July 14, 2015, 2:51 am] HAL       Transmitting message. kcmerrill->default {"resourceId":379,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 2:51 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842279,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842278},"created_date":1436842279,"updated_date":1436842279,"_id":{"$id":"55a47927e13e460b008b4597"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":384,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842937}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":384,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842937,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842279},"created_date":1436842937,"updated_date":1436842937,"_id":{"$id":"55a47bb9e13e460b008b4598"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":389,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842940}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":389,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842940,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842937},"created_date":1436842940,"updated_date":1436842940,"_id":{"$id":"55a47bbce13e460b008b4599"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":394,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842940}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":394,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842940,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842940},"created_date":1436842940,"updated_date":1436842940,"_id":{"$id":"55a47bbce13e460b008b459a"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":399,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842941}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":399,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842941,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842940},"created_date":1436842941,"updated_date":1436842941,"_id":{"$id":"55a47bbde13e460b008b459b"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":404,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842942}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":404,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842942,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842941},"created_date":1436842942,"updated_date":1436842942,"_id":{"$id":"55a47bbee13e460b008b459c"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":409,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842942}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":409,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842942,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842942},"created_date":1436842942,"updated_date":1436842942,"_id":{"$id":"55a47bbee13e460b008b459d"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":414,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":414,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842942},"created_date":1436842943,"updated_date":1436842943,"_id":{"$id":"55a47bbfe13e460b008b459e"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":419,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":419,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842943},"created_date":1436842943,"updated_date":1436842943,"_id":{"$id":"55a47bbfe13e460b008b459f"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":424,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":424,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842943,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842943},"created_date":1436842943,"updated_date":1436842943,"_id":{"$id":"55a47bbfe13e460b008b45a0"}}
+[July 14, 2015, 3:02 am] INFO      A new connection. {"resourceId":429,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842945}
+[July 14, 2015, 3:02 am] HAL       Transmitting message. kcmerrill->default {"resourceId":429,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:02 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436842945,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842943},"created_date":1436842945,"updated_date":1436842945,"_id":{"$id":"55a47bc1e13e460b008b45a1"}}
+[July 14, 2015, 3:03 am] INFO      A new connection. {"resourceId":434,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:03 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":434,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:03 am] INFO      A new connection. {"resourceId":437,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:03 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":437,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:04 am] INFO      A new connection. {"resourceId":440,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:04 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436843074}
+[July 14, 2015, 3:04 am] HAL       Transmitting message. kcmerrill->default {"resourceId":440,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:04 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436843074,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436842945},"created_date":1436843074,"updated_date":1436843074,"_id":{"$id":"55a47c42e13e460b008b45a2"}}
+[July 14, 2015, 3:05 am] INFO      A new connection. {"resourceId":445,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:05 am] INFO      Message from kcmerrill to default is valid. {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436843148}
+[July 14, 2015, 3:05 am] HAL       Transmitting message. kcmerrill->default {"resourceId":445,"remoteAddress":"127.0.0.1"}
+[July 14, 2015, 3:05 am] INFO      Transmitting message. kcmerrill->default {"to":"default","msg":"Take me to your leader","signature":"kcmerrill","channel":"default","action":"_default","sent":1436843148,"from":{"_id":"kcmerrill","email":"kcmerrill@gmail.com","created_date":1436050707,"updated_date":1436843074},"created_date":1436843148,"updated_date":1436843148,"_id":{"$id":"55a47c8ce13e460b008b45a3"}}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":450,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":450,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":453,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":453,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":456,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":456,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":459,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":459,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":462,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":462,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] INFO      A new connection. {"resourceId":465,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:08 am] HAL       I'm sorry 45.35.20.217. I cannot do that. Goodbye. {"resourceId":465,"remoteAddress":"45.35.20.217"}
+[July 14, 2015, 3:37 am] INFO      A new connection. {"resourceId":468,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:37 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":468,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] INFO      A new connection. {"resourceId":471,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":471,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] INFO      A new connection. {"resourceId":474,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":474,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] INFO      A new connection. {"resourceId":477,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":477,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] INFO      A new connection. {"resourceId":480,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 3:56 am] HAL       I'm sorry 172.17.42.1. I cannot do that. Goodbye. {"resourceId":480,"remoteAddress":"172.17.42.1"}
+[July 14, 2015, 4:59 am] INFO      A new connection. {"resourceId":483,"remoteAddress":"185.25.151.159"}
+[July 14, 2015, 4:59 am] HAL       I'm sorry 185.25.151.159. I cannot do that. Goodbye. {"resourceId":483,"remoteAddress":"185.25.151.159"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":486,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":486,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":489,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":489,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":492,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":492,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":495,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":495,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":498,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":498,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] INFO      A new connection. {"resourceId":501,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:37 am] HAL       I'm sorry 61.157.96.193. I cannot do that. Goodbye. {"resourceId":501,"remoteAddress":"61.157.96.193"}
+[July 14, 2015, 5:42 am] INFO      A new connection. {"resourceId":504,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 5:42 am] HAL       I'm sorry 67.190.129.248. I cannot do that. Goodbye. {"resourceId":504,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 5:42 am] INFO      A new connection. {"resourceId":507,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 5:42 am] HAL       I'm sorry 67.190.129.248. I cannot do that. Goodbye. {"resourceId":507,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 5:45 am] HAL       Hello Dave. []
+[July 14, 2015, 5:45 am] HAL       I'm completely operational, and all my circuits are functioning perfectly. []
+[July 14, 2015, 5:47 am] INFO      A new connection. {"resourceId":54,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 5:47 am] HAL       I'm sorry 67.190.129.248. I cannot do that. Goodbye. {"resourceId":54,"remoteAddress":"67.190.129.248"}
+[July 14, 2015, 6:11 am] HAL       Hello Dave. []
+[July 14, 2015, 6:11 am] HAL       I'm completely operational, and all my circuits are functioning perfectly. []
+[July 14, 2015, 6:11 am] INFO      A new connection. {}
+[July 14, 2015, 6:11 am] INFO      Message from 993bf13f-40cb-430a-a3ea-922d49def34f to 2ac660d5-682c-489e-928d-2482f6e7b33a is valid. {"to":"2ac660d5-682c-489e-928d-2482f6e7b33a","msg":"Take me to your leader","signature":"993bf13f-40cb-430a-a3ea-922d49def34f","channel":"2ac660d5-682c-489e-928d-2482f6e7b33a","action":"_default","sent":1436854303}
+[July 14, 2015, 6:11 am] HAL       Transmitting message. 993bf13f-40cb-430a-a3ea-922d49def34f->2ac660d5-682c-489e-928d-2482f6e7b33a {}
+[July 14, 2015, 6:11 am] INFO      Transmitting message. 993bf13f-40cb-430a-a3ea-922d49def34f->2ac660d5-682c-489e-928d-2482f6e7b33a {"to":"2ac660d5-682c-489e-928d-2482f6e7b33a","msg":"Take me to your leader","signature":"993bf13f-40cb-430a-a3ea-922d49def34f","channel":"2ac660d5-682c-489e-928d-2482f6e7b33a","action":"_default","sent":1436854303,"from":{"_id":"993bf13f-40cb-430a-a3ea-922d49def34f","name":"Guest","created_date":1436852074,"updated_date":1436854131},"created_date":1436854303,"updated_date":1436854303,"_id":{"$id":"55a4a81fb8c0680b008b4567"}}
+[July 14, 2015, 6:16 am] INFO      Message from 993bf13f-40cb-430a-a3ea-922d49def34f to 2ac660d5-682c-489e-928d-2482f6e7b33a is valid. {"to":"2ac660d5-682c-489e-928d-2482f6e7b33a","msg":"Take me to your leader","signature":"993bf13f-40cb-430a-a3ea-922d49def34f","channel":"2ac660d5-682c-489e-928d-2482f6e7b33a","action":"_default","sent":1436854580}
+[July 14, 2015, 6:16 am] HAL       Transmitting message. 993bf13f-40cb-430a-a3ea-922d49def34f->2ac660d5-682c-489e-928d-2482f6e7b33a {}
+[July 14, 2015, 6:16 am] INFO      Transmitting message. 993bf13f-40cb-430a-a3ea-922d49def34f->2ac660d5-682c-489e-928d-2482f6e7b33a {"to":"2ac660d5-682c-489e-928d-2482f6e7b33a","msg":"Take me to your leader","signature":"993bf13f-40cb-430a-a3ea-922d49def34f","channel":"2ac660d5-682c-489e-928d-2482f6e7b33a","action":"_default","sent":1436854580,"from":{"_id":"993bf13f-40cb-430a-a3ea-922d49def34f","name":"Guest","created_date":1436852074,"updated_date":1436854304},"created_date":1436854580,"updated_date":1436854580,"_id":{"$id":"55a4a934b8c0680b008b4568"}}

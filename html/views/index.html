@@ -1,0 +1,32 @@
+<html>
+ <head>
+   <title>
+    HAL - Real time web goodness
+   </title>
+   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="css/hal.css" />
+   <script>
+        var ws = new WebSocket('ws://hal.kcmerrill.com:8080');
+        ws.onopen = function(e){
+            ws.send('{"to": "_.login", "signature":"dave"}');
+        };
+        ws.onmessage = function(e) {
+            if(e && e.data) {
+                var d = JSON.parse(e.data);
+                alert(d.msg);
+            }
+        };
+   </script>
+ </head>
+ <body class="custom-font">
+  <div class="hal">
+    <img src="images/hal3.png">
+    <br/>
+    <h1 class="red-font">HAL</h1>
+    real time web goodness
+        <div class="demo">
+            curl -d '{"to": "hal-demo", "msg":"Good Morning Dave", "signature":"dave"}' <?php echo $_SERVER['HTTP_HOST']; ?>
+        </div>
+    </div>
+   </body>
+</html>

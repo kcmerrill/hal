@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+use Ratchet\WebSocket\WsServer;
+use Ratchet\Http\HttpServer;
+use Ratchet\Server\IoServer;
+
+require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'registry.php';
+
+
+$channel = new \kcmerrill\HAL\channel($app['db'], $app['log']);
+$channel->_id('hal-demo');
+$channel->description('The demo channel for hal!');
+$channel->save();
+
+$guest = new \kcmerrill\HAL\subscriber($app['db'], $app['log']);
+$guest->_id('dave');
+$guest->name('dave');
+$guest->description('Dave. He who tries out the demo!');
+$guest->addTo('channels','hal-demo');
+$guest->save();
+
+
+$ws = new WsServer($app['HAL']);
+$server = IoServer::factory(new HttpServer($ws), 8080);
+$server->run();

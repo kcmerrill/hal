@@ -1,0 +1,4 @@
+composer.lock
+vendor/
+logs/hal_
+.yoda*

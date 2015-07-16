@@ -1,0 +1,14 @@
+{
+    "name": "kcmerrill/HAL",
+    "description": "A websocket pub/sub engine",
+    "require": {
+        "silex/silex": "2.0.x-dev",
+        "cboden/ratchet": "v0.3.3",
+        "symfony/yaml": "2.8.*@dev",
+        "kcmerrill/snitchin": "dev-master",
+        "kcmerrill/config": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"kcmerrill": "models/"}
+    }
+}

@@ -24,14 +24,22 @@ class client
         $this->_disconnect();
     }
 
-    public function sendData($data)
+    public function sendData($data, $tries = 10)
     {
         // send actual data:
-        fwrite($this->_Socket, "\x00" . $data . "\xff" ) or die('Error:' . $errno . ':' . $errstr);
-        return true;
+        if(fwrite($this->_Socket, "\x00" . $data . "\xff" ) === false) {
+            if($tries <= 0) {
+                return false;
+            } else {
+                /* Bleh, lets try to resend it */
+                return $this->sendData($data, $tries--);
+            }
+        } else {
+            return true;
+        }
     }
 
-    private function _connect($host, $port)
+    private function _connect($host, $port, $tries = 10)
     {
         $key1 = $this->_generateRandomString(32);
         $key2 = $this->_generateRandomString(32);
@@ -41,7 +49,7 @@ class client
         $header.= "Upgrade: WebSocket\r\n";
         $header.= "Connection: Upgrade\r\n";
         $header.= "Host: ".$host.":".$port."\r\n";
-        $header.= "Origin: http://foobar.com\r\n";
+        $header.= "Origin: http://" .  $_SERVER['SERVER_NAME'] . "\r\n";
         $header.= "Sec-WebSocket-Key1: " . $key1 . "\r\n";
         $header.= "Sec-WebSocket-Key2: " . $key2 . "\r\n";
         $header.= "\r\n";
@@ -49,15 +57,14 @@ class client
 
 
         $this->_Socket = fsockopen($host, $port, $errno, $errstr, 2);
-        fwrite($this->_Socket, $header) or die('Error: ' . $errno . ':' . $errstr);
-        $response = fread($this->_Socket, 2000);
-
-        /**
-         * @todo: check response here. Currently not implemented cause "2 key handshake" is already deprecated.
-         * See: http://en.wikipedia.org/wiki/WebSocket#WebSocket_Protocol_Handshake
-         */
-
-        return true;
+        if(fwrite($this->_Socket, $header) === false) {
+            /* Bleh, lets try to resend it */
+            if($tries <= 0) {
+                return $this->_connect($host, $port, $tries--);
+            }
+        } else {
+            return true;
+        }
     }
 
     private function _disconnect()

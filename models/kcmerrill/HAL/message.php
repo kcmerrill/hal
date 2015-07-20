@@ -15,7 +15,7 @@ class message extends base {
     function valid() {
         return
             isset($this->meta['channel']) &&
-            isset($this->meta['action']) &&
+            isset($this->meta['event']) &&
             isset($this->meta['signature']);
     }
 
@@ -25,10 +25,10 @@ class message extends base {
         $msg = is_array($msg) ? $msg : array();
         if(isset($msg['to'])) {
             if(stristr($msg['to'] , '.')) {
-                list($msg['channel'], $msg['action']) = explode('.', $msg['to'], 2);
+                list($msg['channel'], $msg['event']) = explode('.', $msg['to'], 2);
             } else {
                 $msg['channel'] = $msg['to'];
-                $msg['action'] = '_default';
+                $msg['event'] = '_default';
             }
         }
         return $msg;

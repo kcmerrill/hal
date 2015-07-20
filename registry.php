@@ -15,9 +15,9 @@ $argv = isset($argv) ? $argv : 1000;
 $app['debug'] = true;
 
 $app['config'] = function ($c) {
-    $config = new config('config/');
+    $config = new config(__DIR__ . '/config/', true);
     $config->set('hal.config.dir', __DIR__ . '/config');
-    $config->set('hal.log', 'logs/hal_' . date('mdY') . '.log');
+    $config->set('hal.log', __DIR__ . '/logs/hal_' . date('mdY') . '.log');
     /* If you need to save()
      * $config->save('hal', $config->c('hal.config.dir') . '/hal.log');
     */
@@ -38,7 +38,7 @@ $app['db'] = function ($c) {
 };
 
 $app['HAL'] = function($c) {
-    return new \kcmerrill\HAL($c['log'], $c['db'], getenv('USERNAME') ?: getenv('USER'));
+    return new \kcmerrill\HAL($c['log'], $c['db'], $c['config'], getenv('USERNAME') ?: getenv('USER'));
 };
 
 include 'routes.php';

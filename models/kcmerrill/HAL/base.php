@@ -99,7 +99,7 @@ class base {
 
     function import($values) {
         if(is_array($values)) {
-            $this->meta = $values;
+            $this->meta = array_merge($this->meta, $values);
             return true;
         } else {
             $meta = $this->db->findOne(array('_id'=>$values));

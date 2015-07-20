@@ -13,10 +13,12 @@ class HAL implements MessageComponentInterface {
     var $subscribers = array();
     var $operator;
     var $system_channels = array('h', '_','hal');
+    var $config;
 
-    public function __construct($log, $db, $operator = 'Dave') {
+    public function __construct($log, $db, $config, $operator = 'Dave') {
         $this->log = $log;
         $this->db = $db;
+        $this->config = $config;
         $this->operator = ucwords($operator) ?: 'Dave';
         $this->log->HAL('Hello ' . $this->operator . '.');
         $this->log->HAL("I'm completely operational, and all my circuits are functioning perfectly.");
@@ -34,8 +36,14 @@ class HAL implements MessageComponentInterface {
             $this->log->info('Message from ' . $this->subscribers[$from->resourceId]->token() . ' to ' . $message->channel() . ' is valid.', $message->toPublic());
             /* Set the from on the message */
             $message->from($this->subscribers[$from->resourceId]->toPublic('channels'));
-            /* Save it for history sake */
-            $message->save(false);
+            if($this->config->get('hal.messages.save', true)){
+                /* Save it for history sake */
+                $message->save(false);
+            }
+            if(!$message->confirm() && $this->config->get('hal.messages.confirm', false)) {
+                /* Should we send a confirmation message? */
+                $message->confirm(true);
+            }
             if(in_array(strtolower($message->channel()), $this->system_channels)) {
                 /* System channels would go here */
                 $command = new command($this->db, $this->log, $message);
@@ -56,21 +64,20 @@ class HAL implements MessageComponentInterface {
                 }
             }
         } else {
-            $from->send("I'm sorry Dave, I'm afraid I can't do that.\r\n");
-            $from->send("GoodBye.\r\n");
+            $message->success(false);
+            $message->msg("I'm sorry dave, I cannot do that. Goodbye");
             if($message->valid()) {
                 if($this->subscribers[$from->resourceId]) {
                     if(!$this->subscribers[$from->resourceId]->authenticate($message->signature())) {
                         $this->log->HAL('Something smells funny ' . $this->operator. '. Disconnecting ' . $from->remoteAddress, $from);
-                        $from->send("Reason: Authentication Failure\r\n");
+                        $message->reason('Authentication failure');
                         $from->close();
                     }
                 }
             } else {
                 $this->log->HAL("I'm sorry " . ($this->subscribers[$from->resourceId]->_id() ? $this->subscribers[$from->resourceId]->_id() : $from->remoteAddress) . '. I cannot do that. Goodbye.', $from);
             }
-            /* Not authenticated? And not a valid Message? Seriously? GTFO */
-            //$from->close();
+            $from->send($message->toJson());
         }
     }
 

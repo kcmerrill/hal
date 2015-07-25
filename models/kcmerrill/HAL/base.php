@@ -78,7 +78,7 @@ class base {
         $to_remove = is_string($to_remove) ? explode('|', $to_remove) : $to_remove;
         $public = $this->meta;
         foreach($public as $key=>$value) {
-            if(substr($key, 1) == '_' || in_array($key, $to_remove)) {
+            if(substr($key, 0, 1) == '_' || in_array($key, $to_remove)) {
                 unset($public[$key]);
             }
         }

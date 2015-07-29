@@ -6,7 +6,7 @@
    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" type="text/css" href="css/hal.css" />
    <script>
-        var ws = new WebSocket('ws://hal.kcmerrill.com:8080');
+        var ws = new WebSocket('ws://<?php echo $_SERVER['HTTP_HOST']; ?>:8080');
         ws.onopen = function(e){
             ws.send('{"to": "_.login", "signature":"dave"}');
         };

@@ -21,6 +21,7 @@ $app['config'] = function ($c) {
     /* If you need to save()
      * $config->save('hal', $config->c('hal.config.dir') . '/hal.log');
     */
+    $config->autoLoadEnv('hal');
     return $config;
 };
 

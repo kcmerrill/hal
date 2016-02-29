@@ -8,7 +8,7 @@ import (
 	"github.com/kcmerrill/hal/src/socket"
 	"github.com/kcmerrill/hal/src/users"
 	"github.com/kcmerrill/hal/src/web"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 )
 
 func Boot() {

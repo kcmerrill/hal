@@ -3,7 +3,7 @@ package web
 import (
 	"fmt"
 	"github.com/kcmerrill/hal/src/message"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 	"io/ioutil"
 	"net/http"
 )

@@ -5,7 +5,7 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/kcmerrill/hal/src/connection"
 	"github.com/kcmerrill/hal/src/message"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 	"net/http"
 )
 

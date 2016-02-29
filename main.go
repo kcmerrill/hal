@@ -2,7 +2,7 @@ package main
 
 import (
 	hal "github.com/kcmerrill/hal/src/hal"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 )
 
 func main() {

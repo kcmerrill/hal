@@ -3,7 +3,7 @@ package connection
 import (
 	"github.com/gorilla/websocket"
 	"github.com/kcmerrill/hal/src/message"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 )
 
 var connections map[*connection]bool

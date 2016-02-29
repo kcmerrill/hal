@@ -3,7 +3,7 @@ package command
 import (
 	"github.com/kcmerrill/hal/src/message"
 	"github.com/kcmerrill/hal/src/users"
-	log "github.com/kcmerrill/snitchin-go"
+	log "github.com/kcmerrill/snitchin.go"
 	"strings"
 )
 

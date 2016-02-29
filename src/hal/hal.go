@@ -1,6 +1,7 @@
 package hal
 
 import (
+	"flag"
 	"fmt"
 	"github.com/kcmerrill/hal/src/channel"
 	"github.com/kcmerrill/hal/src/command"
@@ -12,12 +13,19 @@ import (
 )
 
 func Boot() {
+
+	web_server := flag.Int("web", 80, "Port to run the webserver")
+	socket_server := flag.Int("socket", 8080, "Port to run the websocket server")
+	signature := flag.String("signature", "hal", "Master password to be used")
+
+	flag.Parse()
+
 	log.INFO("Good Morning Dave ...")
 
 	/* TODO: Remove me */
 	users.Register(&users.Info{
 		Username:  "dave",
-		Signature: "bingowashisnameo",
+		Signature: *signature,
 		Channels: map[string]int{
 			"#hal-demo": 1,
 		},
@@ -32,10 +40,10 @@ func Boot() {
 	}
 
 	/* Start Hal's webserver in the background */
-	go web.Boot(45000, msgs)
+	go web.Boot(*web_server, msgs)
 
 	/* Start Hal's websocket server */
-	socket.Boot(45001, msgs)
+	socket.Boot(*socket_server, msgs)
 }
 
 func MessageWorker(id int, msgs chan *message.Message) {

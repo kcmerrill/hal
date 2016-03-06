@@ -1,6 +1,7 @@
 package connection
 
 import (
+	"errors"
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/websocket"
 	"github.com/kcmerrill/hal/message"
@@ -10,6 +11,15 @@ var connections map[*connection]bool
 
 func init() {
 	connections = make(map[*connection]bool)
+}
+
+func Fetch(signature string) (*connection, error) {
+	for conn, _ := range connections {
+		if conn.Signature == signature {
+			return conn, nil
+		}
+	}
+	return nil, errors.New("Unable to find an active connection for " + signature)
 }
 
 func Connections() map[*connection]bool {

@@ -10,11 +10,21 @@ func init() {
 	Registered = make(map[string]*Info)
 }
 
-func Fetch(sig string) (*Info, error) {
-	if u, exists := Registered[sig]; exists {
-		return u, nil
+func Fetch(handle string) (*Info, error) {
+	if string(handle[0]) == "@" {
+		/* Lets look up a user based on their username */
+		for _, user := range Registered {
+			if user.At() == handle {
+				return user, nil
+			}
+		}
+		return nil, errors.New("The user " + handle + " does not exist")
 	} else {
-		return nil, errors.New("Unable to find " + sig)
+		if u, exists := Registered[handle]; exists {
+			return u, nil
+		} else {
+			return nil, errors.New("Unable to find the signature " + handle)
+		}
 	}
 }
 
@@ -30,7 +40,7 @@ func Register(u *Info) (*Info, error) {
 		Registered[u.Signature] = u
 		return u, nil
 	} else {
-		return u, errors.New("User " + u.Signature + " already exists ...")
+		return u, errors.New("Signature " + u.Signature + " already exists ...")
 	}
 }
 

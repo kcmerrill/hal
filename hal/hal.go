@@ -5,6 +5,8 @@ import (
 	"fmt"
 	log "github.com/Sirupsen/logrus"
 	"github.com/kcmerrill/hal/channel"
+	"github.com/kcmerrill/hal/command"
+	"github.com/kcmerrill/hal/connection"
 	"github.com/kcmerrill/hal/message"
 	"github.com/kcmerrill/hal/socket"
 	"github.com/kcmerrill/hal/users"
@@ -60,9 +62,25 @@ func MessageWorker(id int, msgs chan *message.Message) {
 			case "channel":
 				channel.Broadcast(m)
 				continue
+			case "command":
+				if master_signature == m.Signature {
+					command.Execute(m)
+				} else {
+					log.Error("Permission denied")
+				}
+				continue
 			case "direct":
-				//users.Message(m)
-				//log.DEBUG("A direct message to " + m.To)
+				if u, err := users.Fetch(m.To); err == nil {
+					/* We now have a signature! Lets fetch the connection */
+					if conn, conn_error := connection.Fetch(u.Signature); conn_error == nil {
+						log.Info(m.From + "->" + u.At())
+						conn.Write(m)
+					} else {
+						log.Error(conn_error.Error())
+					}
+				} else {
+					log.Error(err.Error())
+				}
 			default:
 				log.Error("Unknown message type: " + m.Type())
 				continue

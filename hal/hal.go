@@ -3,12 +3,12 @@ package hal
 import (
 	"flag"
 	"fmt"
+	log "github.com/Sirupsen/logrus"
 	"github.com/kcmerrill/hal/channel"
 	"github.com/kcmerrill/hal/message"
 	"github.com/kcmerrill/hal/socket"
 	"github.com/kcmerrill/hal/users"
 	"github.com/kcmerrill/hal/web"
-	log "github.com/kcmerrill/snitchin.go"
 )
 
 var master_signature string
@@ -22,7 +22,7 @@ func Boot() {
 	master_signature = *signature
 	flag.Parse()
 
-	log.INFO("Good Morning Dave ...")
+	log.Info("Good Morning Dave ...")
 
 	/* TODO: Remove me */
 	users.Register(&users.Info{
@@ -64,12 +64,12 @@ func MessageWorker(id int, msgs chan *message.Message) {
 				//users.Message(m)
 				//log.DEBUG("A direct message to " + m.To)
 			default:
-				log.ERROR("Unknown message type: " + m.Type())
+				log.Error("Unknown message type: " + m.Type())
 				continue
 			}
-			log.Write("MESSAGE", fmt.Sprintf("[WORKER#%d] [%s] "+user.At()+"->"+m.To, id, m.Type()))
+			log.Debug(fmt.Sprintf("[WORKER#%d] [%s] "+user.At()+"->"+m.To, id, m.Type()))
 		} else {
-			log.ERROR("Unknown user with signature " + m.Signature)
+			log.Error("Unknown user with signature " + m.Signature)
 		}
 
 	}

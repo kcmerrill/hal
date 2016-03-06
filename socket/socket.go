@@ -2,10 +2,10 @@ package socket
 
 import (
 	"fmt"
+	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/websocket"
 	"github.com/kcmerrill/hal/connection"
 	"github.com/kcmerrill/hal/message"
-	log "github.com/kcmerrill/snitchin.go"
 	"net/http"
 )
 
@@ -25,7 +25,7 @@ func registerConnection(msg chan *message.Message) func(w http.ResponseWriter, r
 		conn, err := upgrader.Upgrade(w, r, nil)
 		if err != nil {
 			/* Bummer, there was an error ... */
-			log.ERROR(fmt.Sprintf("%q", err.Error()))
+			log.Error(fmt.Sprintf("%q", err.Error()))
 		} else {
 			connection.Register(conn, msg)
 		}
@@ -41,9 +41,9 @@ func Boot(port int, msgs chan *message.Message) {
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
 	if err != nil {
 		/* Bummer .. we can't start our WS server */
-		log.ERROR(fmt.Sprintf("Unable to start websocker server on port %d", port))
+		log.Error(fmt.Sprintf("Unable to start websocker server on port %d", port))
 	} else {
-		log.INFO(fmt.Sprintf("Listening to web socket requests on port %d", port))
+		log.Info(fmt.Sprintf("Listening to web socket requests on port %d", port))
 	}
 
 }

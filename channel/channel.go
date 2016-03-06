@@ -1,9 +1,9 @@
 package channel
 
 import (
-	"github.com/kcmerrill/hal.go/connection"
-	"github.com/kcmerrill/hal.go/message"
-	"github.com/kcmerrill/hal.go/users"
+	"github.com/kcmerrill/hal/connection"
+	"github.com/kcmerrill/hal/message"
+	"github.com/kcmerrill/hal/users"
 )
 
 func Broadcast(m *message.Message) {

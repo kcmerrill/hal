@@ -3,8 +3,8 @@ package socket
 import (
 	"fmt"
 	"github.com/gorilla/websocket"
-	"github.com/kcmerrill/hal.go/connection"
-	"github.com/kcmerrill/hal.go/message"
+	"github.com/kcmerrill/hal/connection"
+	"github.com/kcmerrill/hal/message"
 	log "github.com/kcmerrill/snitchin.go"
 	"net/http"
 )

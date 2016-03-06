@@ -3,11 +3,11 @@ package hal
 import (
 	"flag"
 	"fmt"
-	"github.com/kcmerrill/hal.go/channel"
-	"github.com/kcmerrill/hal.go/message"
-	"github.com/kcmerrill/hal.go/socket"
-	"github.com/kcmerrill/hal.go/users"
-	"github.com/kcmerrill/hal.go/web"
+	"github.com/kcmerrill/hal/channel"
+	"github.com/kcmerrill/hal/message"
+	"github.com/kcmerrill/hal/socket"
+	"github.com/kcmerrill/hal/users"
+	"github.com/kcmerrill/hal/web"
 	log "github.com/kcmerrill/snitchin.go"
 )
 

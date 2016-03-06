@@ -2,7 +2,7 @@ package web
 
 import (
 	"fmt"
-	"github.com/kcmerrill/hal.go/message"
+	"github.com/kcmerrill/hal/message"
 	log "github.com/kcmerrill/snitchin.go"
 	"io/ioutil"
 	"net/http"

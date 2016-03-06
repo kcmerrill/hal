@@ -31,6 +31,10 @@ func (m *Message) Type() string {
 		return "direct"
 	}
 
+	if string(m.To[0]) == "_" {
+		return "system"
+	}
+
 	if string(m.To[0]) == "#" {
 		return "channel"
 	}

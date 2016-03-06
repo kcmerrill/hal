@@ -2,7 +2,7 @@ package web
 
 import (
 	"fmt"
-	"github.com/kcmerrill/hal/src/message"
+	"github.com/kcmerrill/hal.go/message"
 	log "github.com/kcmerrill/snitchin.go"
 	"io/ioutil"
 	"net/http"
@@ -11,9 +11,11 @@ import (
 func incoming(msgs chan *message.Message) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if incoming, err := ioutil.ReadAll(r.Body); err == nil {
-			if m, err := message.Open(incoming); err == nil {
+			if m, open_error := message.Open(incoming); open_error == nil {
 				/* Send in the message! */
 				msgs <- m
+			} else {
+				log.ERROR(open_error.Error())
 			}
 		}
 	}

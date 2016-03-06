@@ -1,8 +1,10 @@
 package main
 
 import (
-	hal "github.com/kcmerrill/hal/src/hal"
+	hal "github.com/kcmerrill/hal.go/hal"
+	"github.com/kcmerrill/shutdown.go"
 	log "github.com/kcmerrill/snitchin.go"
+	"syscall"
 )
 
 func main() {
@@ -12,4 +14,9 @@ func main() {
 
 	/* Giddy up! */
 	hal.Boot()
+
+	/* Catch the shutdown */
+	shutdown.WaitFor(syscall.SIGINT, syscall.SIGTERM)
+
+	log.OK("Shutting down ...")
 }

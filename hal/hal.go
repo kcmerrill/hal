@@ -3,21 +3,23 @@ package hal
 import (
 	"flag"
 	"fmt"
-	"github.com/kcmerrill/hal/src/channel"
-	"github.com/kcmerrill/hal/src/command"
-	"github.com/kcmerrill/hal/src/message"
-	"github.com/kcmerrill/hal/src/socket"
-	"github.com/kcmerrill/hal/src/users"
-	"github.com/kcmerrill/hal/src/web"
+	"github.com/kcmerrill/hal.go/channel"
+	"github.com/kcmerrill/hal.go/message"
+	"github.com/kcmerrill/hal.go/socket"
+	"github.com/kcmerrill/hal.go/users"
+	"github.com/kcmerrill/hal.go/web"
 	log "github.com/kcmerrill/snitchin.go"
 )
 
-func Boot() {
+var master_signature string
 
+func Boot() {
+	/* Setup our command line arguments */
 	web_server := flag.Int("web", 80, "Port to run the webserver")
 	socket_server := flag.Int("socket", 8080, "Port to run the websocket server")
 	signature := flag.String("signature", "hal", "Master password to be used")
-
+	workers := flag.Int("workers", 100, "How many workers to spin up")
+	master_signature = *signature
 	flag.Parse()
 
 	log.INFO("Good Morning Dave ...")
@@ -25,17 +27,15 @@ func Boot() {
 	/* TODO: Remove me */
 	users.Register(&users.Info{
 		Username:  "dave",
-		Signature: *signature,
-		Channels: map[string]int{
-			"#hal-demo": 1,
-		},
+		Signature: master_signature,
+		Channels:  map[string]int{},
 	})
 
 	/* Create a few channels */
 	msgs := make(chan *message.Message)
 
 	/* Get our message workers up and running */
-	for x := 1; x <= 1000; x++ {
+	for x := 1; x <= *workers; x++ {
 		go MessageWorker(x, msgs)
 	}
 
@@ -43,7 +43,7 @@ func Boot() {
 	go web.Boot(*web_server, msgs)
 
 	/* Start Hal's websocket server */
-	socket.Boot(*socket_server, msgs)
+	go socket.Boot(*socket_server, msgs)
 }
 
 func MessageWorker(id int, msgs chan *message.Message) {
@@ -53,22 +53,21 @@ func MessageWorker(id int, msgs chan *message.Message) {
 
 		if user, err := users.Fetch(m.Signature); err == nil {
 			/* Quick logging */
-			log.Write("MESSAGE", fmt.Sprintf("[WORKER#%d] "+user.At()+"->"+m.To, id))
 			m.From = user.At()
 
 			/* Depending on the type of message, do something with it */
 			switch m.Type() {
 			case "channel":
 				channel.Broadcast(m)
-			case "command":
-				command.Execute(m)
+				continue
 			case "direct":
 				//users.Message(m)
-				log.DEBUG("A direct message to " + m.To)
+				//log.DEBUG("A direct message to " + m.To)
 			default:
 				log.ERROR("Unknown message type: " + m.Type())
 				continue
 			}
+			log.Write("MESSAGE", fmt.Sprintf("[WORKER#%d] [%s] "+user.At()+"->"+m.To, id, m.Type()))
 		} else {
 			log.ERROR("Unknown user with signature " + m.Signature)
 		}

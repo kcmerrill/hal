@@ -2,7 +2,7 @@ package connection
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/kcmerrill/hal/src/message"
+	"github.com/kcmerrill/hal.go/message"
 	log "github.com/kcmerrill/snitchin.go"
 )
 
